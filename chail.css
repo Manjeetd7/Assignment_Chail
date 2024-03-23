@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+    
+    
+    
+    }
+    .box1{
+    border: 1px solid black;
+    background-color: black;
+    height: 40px;
+    
+    }
+    
+    ul{
+    
+        float: left;
+    color: white;
+    }
+    
+    ul li{
+    float: left;
+    position: relative;
+    left: 400%;
+    padding-top: 10px;
+    width: 100px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    ul li a{
+    
+        text-decoration: none;
+        color:white;
+    }
+    
+    ul li a :hover{
+        color: brown;
+    }
+    
+    
+    .main-nav{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+    font-weight: bolder;
+    
+    }
+    
+    ol{float: left;}
+    
+    ol li{
+    float: left;
+    width: 120px;
+    position: relative;
+    left: 90%;
+    padding-top: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    }
+    
+    ol li a{
+    
+        text-decoration: none;
+        color: black;
+    }
+    
+    ol li a:hover{
+    
+        border-bottom: 4px solid black;
+    }
+    
+    .fa-magnifying-glass{
+    
+        position: absolute;
+        left: 94%;
+        top: 8%;
+        color: black;
+    }
+    
+    .fa-user{
+    
+        position: absolute;
+        left: 97%;
+        top: 8%;
+        color: black;
+    }
+    
+    
+    h3{
+        color: red;
+        position: absolute;
+        left: 93.5%;
+        top: 6%;
+        width: 18px;
+        height: -50px;
+        border-radius: 100px;
+        text-align: center;
+    }
+    
+    h1{
+    position: absolute;
+    left:70px;
+    text-transform: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+    }
+    
+    font{
+    
+    color: red;}
+    
+    .cover img{
+    
+        left:0;
+        background-size: cover;
+        height: 730px;
+        width: 1520px;
+    position: absolute;
+    
+    }
+    
+    .text{
+    
+        position: absolute;
+        top: 30%;
+        left: 7%;
+        font-size: larger;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+    
+    h2{
+    font-size: 0px;
+    text-transform: capitalize;
+    width: 900px;
+    word-spacing: 0px;
+    font-weight: normal;
+    line-height: 20px;}
+    
+    
+    h4{
+        margin-top: 1px;
+        color: white;
+        top: 100%;
+        margin: 8px 12px;
+        font-size: 18px;
+        position: absolute;
+        left: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        }
+    }
+    
+    form input[type="submit"]
+    {
+    position: absolute;
+    top: 150%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    }
+    
+    form input[type="submit"]:hover{
+        background-color: black;
+    }
+    
+    .image2{
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    border: 1px solid darkgrey;
+    box-shadow: 1px 2px 4px;
+    }
+    
+    h6{
+    position: absolute;
+    color:black;
+    left: 15%;
+    top: 75%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background-color: whitesmoke;
+    font-weight: normal;
+    text-align: center;
+    
+    }
+    
+    
+    
+    .image2:hover{
+        box-shadow: 1px 3px 9px;
+    
+    }
+    
+    .image3{
+        position: absolute;
+        left: 40%;
+        top: 100%;
+        border: 1px solid darkgrey;
+        box-shadow: 1px 2px 4px;
+    }
+    
+    .image3:hover{
+        box-shadow: 1px 3px 9px;}
+    
+        h{
+            position: absolute;
+            color:black;
+            left: 15%;
+            top: 75%;
+            border: 1px solid whitesmoke;
+            width: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman';
+            background-color: whitesmoke;
+            font-weight: normal;
+            text-align: center;   
+        }
+    
+        .image3{
+        position: absolute;
+        left: 70%;
+        top: 100%;
+        border: 1px solid darkgrey;
+        box-shadow: 1px 2px 4px;
+    }
+    
+    
+    .image4{
+        position: absolute;
+        left: 40%;
+        top: 100%;
+        border: 1px solid darkgrey;
+        box-shadow: 1px 2px 4px;
+    }
+    
+    .image4:hover{
+        box-shadow: 1px 3px 9px;
+    }
+    
+    t{
+        position: absolute;
+            color:black;
+            left: 15%;
+            top: 75%;
+            border: 1px solid whitesmoke;
+            width: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman';
+            background-color: whitesmoke;
+            font-weight: normal;
+            text-align: center;  
+    }
+    
+   /* heritage */
+
+   .container{
+
+    position: absolute;
+        top: 20%;
+        left: 4%;
+        font-size: larger;
+        color: rgb(18, 1, 1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+
+        .description1{
+            position: absolute;
+            top: 30%;
+            word-spacing: 2px;
+            line-height: 40px;
+            left: 4%;
+            font-size: larger;
+            color: rgb(18, 1, 1);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .himg1 img{
+    
+            left: 15%;
+            height: 500px;
+            width: 1020px;
+        position: absolute;
+        top: 400px;
+        
+        }
+       
+        .cphead h2{
+
+            position: absolute;
+            top: 130%;
+            left: 7%;
+            font-size: x-large;
+            color: rgb(18, 1, 1);
+
+
+        }
+
+        .cpdesc{
+        
+            position: absolute;
+            top: 140%;
+            word-spacing: 2px;
+            line-height: 40px;
+            left: 4%;
+            font-size: larger;
+            color: rgb(18, 1, 1);
+
+
+
+        }
+
+        .palaceimg img{
+
+            left:15%;
+            height: 500px;
+            width: 1020px;
+        position: absolute;
+        top: 1400px;}
+
+        .kthead h2{
+
+            position: absolute;
+            top: 265%;
+            left: 7%;
+            font-size: x-large;
+            color: rgb(18, 1, 1);
+
+
+        }
+
+        .ktdesc{
+        
+            position: absolute;
+            top: 275%;
+            word-spacing: 2px;
+            line-height: 40px;
+            left: 4%;
+            font-size: larger;
+            color: rgb(18, 1, 1);
+
+
+
+        }
+
+        .tibbaimg img{
+
+            left:15%;
+            height: 500px;
+            width: 1020px;
+        position: absolute;
+        top: 2400px;}
+
+        .sbhead h2{
+
+            position: absolute;
+            top: 400%;
+            left: 7%;
+            font-size: x-large;
+            color: rgb(18, 1, 1);
+
+
+        }
+
+        .sbdesc{
+        
+            position: absolute;
+            top: 410%;
+            word-spacing: 2px;
+            line-height: 40px;
+            left: 4%;
+            font-size: larger;
+            color: rgb(18, 1, 1);
+
+
+
+        }
+
+        .sbimg img{
+
+            left:15%;
+            height: 500px;
+            width: 1020px;
+        position: absolute;
+        top: 3300px;}
+
+        /* hotels */
+
+       .head1{
+       
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        font-size: larger;
+        color: rgb(18, 1, 1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+
+        .h1img{
+
+        top: 35%;
+        left: 7%;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+
+
+        }
+
+        .htitle1{
+        
+            position: absolute;
+            top: 38%;
+            left: 30%;
+            font-size: x-large;
+            color: black;
+
+        }
+
+        .hdesc1{
+
+            position: absolute;
+            top: 47%;
+            left: 30%;
+            font-size: larger;            
+            color: black;}
+
+            
+
+        
+
+         .h2img{
+
+            top: 80%;
+            left: 7%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+    
+    
+            }
+    
+            .htitle2{
+            
+                position: absolute;
+                top:83%;
+                left: 30%;
+                font-size: x-large;
+                color: black;
+    
+            }
+    
+            .hdesc2{
+    
+                position: absolute;
+                top: 93%;
+                left: 30%;
+                font-size: larger;            
+                color: black;
+    
+            } 
+
+            .h3img{
+
+                top: 125%;
+                left: 7%;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+        
+        
+                }
+        
+                .htitle3{
+                
+                    position: absolute;
+                    top: 128%;
+                    left: 30%;
+                    font-size: x-large;
+                    color: black;
+        
+                }
+        
+                .hdesc3{
+        
+                    position: absolute;
+                    top: 137%;
+                    left: 30%;
+                    font-size: larger;            
+                    color: black;
+        
+                }
+
+                .h4img{
+
+                    top: 170%;
+                    left: 7%;
+                    height: 100px;
+                    width: 100px;
+                    position: absolute;
+            
+            
+                    }
+            
+                    .htitle4{
+                    
+                        position: absolute;
+                        top: 173%;
+                        left: 30%;
+                        font-size: x-large;
+                        color: black;
+            
+                    }
+            
+                    .hdesc4{
+            
+                        position: absolute;
+                        top: 183%;
+                        left: 30%;
+                        font-size: larger;            
+                        color: black;
+            
+                    }
+
+
+                    .h5img{
+
+                        top: 215%;
+                        left: 7%;
+                        height: 100px;
+                        width: 100px;
+                        position: absolute;
+                
+                
+                        }
+                
+                        .htitle5{
+                        
+                            position: absolute;
+                            top: 218%;
+                            left: 30%;
+                            font-size: x-large;
+                            color: black;
+                
+                        }
+                
+                        .hdesc5{
+                
+                            position: absolute;
+                            top: 227%;
+                            left: 30%;
+                            font-size: larger;            
+                            color: black;
+                
+                        }
+                         
+                        /* gallery */
+        
+                        .g1{
+
+                            top: 25%;
+                            left: 8%;
+                            height: 100px;
+                            width: 100px;
+                            position: absolute;
+                    
+
+
+                        }
+
+        .d1{
+
+        top: 89%;
+        left: 16%;
+        position: absolute;
+        font-size: x-large;
+        }
+
+        .g2{
+            top: 25%;
+            left: 55%;
+            height: 100px;
+            width: 100px;
+            position: absolute}
+
+            .d2{
+
+                top: 89%;
+                left: 65%;
+                position: absolute;
+                font-size: x-large;}
+
+                .g3{
+                    top: 100%;
+                    left: 8%;
+                    height: 100px;
+                    width: 100px;
+                    position: absolute}
+        
+                    .d3{
+        
+                        top: 165%;
+                        left: 16%;
+                        position: absolute;
+                        font-size: x-large;}
+
+                        .g4{
+                            top: 100%;
+                            left: 55%;
+                            height: 100px;
+                            width: 100px;
+                            position: absolute}
+                
+                            .d4{
+                
+                                top: 165%;
+                                left: 65%;
+                                position: absolute;
+                                font-size: x-large;}
+
+
+                                .g5{
+                                    top: 180%;
+                                    left:8%;
+                                    height: 100px;
+                                    width: 100px;
+                                    position: absolute}
+                        
+                                    .d5{
+                        
+                                        top: 245%;
+                                        left: 16%;
+                                        position: absolute;
+                                        font-size: x-large;}
+
+
+
+                                        .g6{
+                                            top: 180%;
+                                            left: 55%;
+                                            width: 500px;
+                                            height: 450px;
+                                            position: absolute}
+                                
+                                            
+                                            .d6{
+                        
+                                                top: 245%;
+                                                left: 65%;
+                                                position: absolute;
+                                                font-size: x-large;}
+                                        
+                                                    /* contact us */
+
+                                                
+
+                                                        
+                                                    
+                                                    
+                                                    .outerbox{
+                                                    width: 50vw;
+                                                    height: 60vw;
+                                                    background-color: rgb(17, 18, 18);}
+                                                    
+                                                    .innerbox{
+                                                    width: 400px;
+                                                    margin: 0 550px;
+                                                    position: relative;
+                                                    top: 10%;
+                                                    left: -2%;
+                                                    padding: 30px 30px;
+                                                    background-color:whitesmoke;
+                                                    border-radius: 10px;
+                                                    text-align: center;
+                                                    z-index: auto;
+                                                    }
+                                                    
+                                                    .headerup header{
+                                                        font-size: 2rem;
+                                                        color: rgb(57, 57, 56);
+                                                        left: 50%;
+                                                    }
+                                                    
+                                                    .headerup p{
+                                                        font-size: 1rem;
+                                                        color: #555;
+                                                    }
+                                                    
+                                                    .bodyup{
+                                                        font-weight: bold;
+                                                        margin: 20px 0;
+                                                        font: 3rem;
+                                                    left: 20%;}
+                                                    
+                                                    .bodyup p{
+                                                    margin: 10px 0;
+                                                    }
+                                                    
+                                                    
+                                                    .bodyup p input{
+                                                    width: 100%;
+                                                    left: 15%;
+                                                    padding: 15px;
+                                                    border: 3px solid black;
+                                                    margin-top: 5px;
+                                                    }
+                                                    
+                                                    #Submit{
+                                                    background-color: rgb(44, 82, 84);
+                                                    font-weight: bold;
+                                                    color: whitesmoke;
+                                                    cursor: pointer;
+                                                    }
+                                                    
+                                                    #Submit:hover{
+                                                        background-color: rgb(27, 44, 45);
+                                                    }
+                                                    
+                                                    .circle{
+                                                        width: 300px;
+                                                        height: 300px;
+                                                        border-radius: 150px;
+                                                    /* background: linear-gradient(to top left, black, whitesmoke); */
+                                                    position: absolute;}
+                                                    
+                                                    .c1{
+                                                    top: 200px;
+                                                    right: 100px;
+                                                    background-color: black;
+                                                    }
+                                                    
+                                                    .c2{
+                                                        top: 600px;
+                                                        left: 100px;
+                                                        background-color: whitesmoke;
+
+                                                    }
+                                                    
+                                                    .textarea1{
+                                                    
+                                                        border: 3px solid black;
+                                                    
+                                                    }
+
+                                                    .sec{
+
+                                                        top: 7%;
+                                                        left: 30%;
+                                                        position: absolute;
+                                                        font-size: x-large;
+                                                        font-weight: 400;}
+
+                                                    
